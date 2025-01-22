@@ -1,4 +1,48 @@
 *{
+<<<<<<< HEAD
+    padding: 0;
+    margin: 0;
+}
+
+.sec1{
+    height: 65vh;
+    background-color: forestgreen;
+    padding: 0;
+    margin: 0;
+}
+
+.sec1 .cont-sec1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.cont-sec1 .texte p{
+   z-index: 100%;
+}
+
+.cont-sec1 .texte h1{
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+.cont-sec1 > img{
+    width: 35%;
+    height: 30%;
+    border-radius: 30px;
+}
+
+.sec2{
+    flex-wrap: wrap;
+    margin-top: 1%;
+    height: 200vh;
+    text-align: center;
+    text-transform: capitalize;
+    color: forestgreen;
+=======
     margin: 0;
     padding: 0;
     font-family: "Noto Sans", serif;
@@ -70,10 +114,39 @@ border-radius: 50%;
 color: #ffffff;
 text-decoration: none;
 margin: 0.2em;
+>>>>>>> 787d95266514587a37c6dac294d2488485416864
 }
 
 
 
+<<<<<<< HEAD
+@media screen and (max-width: 991px){
+    .sec1 .cont-sec1{
+        flex-wrap: wrap;
+    }
+
+    .sec1{
+        height: 75vh;
+    }
+
+    .cont-sec1  img{
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .sec2 img{
+        width: 100%;
+    }
+
+    .sec1 .texte h1{
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-top: 10px;
+    }
+        
+
+}
+=======
 @media (max-width: 916px) {
     label.logo{
         font-size: 18px;
@@ -105,3 +178,4 @@ margin: 0.2em;
 
 
 }
+>>>>>>> 787d95266514587a37c6dac294d2488485416864
